@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+:root{
+    --color-subject:  rgb(0, 0, 151);
+    --color-class: rgb(187, 18, 51);
+    --color-dark-gray: rgb(126,126,126);
+    --color-light-gray: rgb(233, 233, 233);
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header 
+{
+    background:  rgb(0,0,0,0.5);
+    color: white;
+}
+
+.banner
+{
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.school-logo
+{
+    width: 7em;
+    height: 7em;
+}
+
+h1
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    padding: 1em;
+    color: var(--color-subject)
+}
+
+h3{
+    padding: 1em;
+    color: var(--color-class)
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+a:link, a:visited 
+{
+    color: var(--color-class);
+}
+
+a:hover 
+{
+    color: var(--color-subject);
+}
+
+#address{
+    color: white;
+}
+
+#address:hover{
+    color: black;
+}
+
+.buttons
+{
+    width: 100vmax;
+}
+
+.fixed-nav nav
+{
+    position: fixed;
+}
+
+nav {
+    background: var(--color-dark-gray);
+    top: 0;
+    width: 100%;
+    transition: all 0.5s;
+    position: relative;
+    z-index: 1;
+}
+
+button
+{
+    background-color: rgb(0,0,0,0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover
+{
+    background-color: rgb(0,0,0,0.25);
+    cursor: pointer;
+}
+
+.foot
+{
+    background: var(--color-dark-gray);
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    padding: 1em;
+}
+
+.footelement
+{
+    margin: 0.125em;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background:var(--color-light-gray);
+}
+
+body{
+    background-image: linear-gradient(to right, white , red, blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.main
+{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+.side-bar
+{
+    background:var(--color-light-gray);
+    padding: 2em;
+    height: 100%;    
+}
+
+.content
+{
+    background: white;
+    padding: 1.25em;
+    font-size: 1.1rem;
+}
+
+.home-content{
+    background-image: url(images/walton-building-1-40.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.subject{
+    font-size: 1.25rem;
+    padding: 0.5em;
+    color: var(--color-subject);
+}
+
+.classes{
+    padding: 0.25em;
+    color: var(--color-class);
+}
+
+.teacher{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 1em;
+}
+
+.profile{
+    width: 7em;
+    height: 7em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.name{
+    font-size: 2rem;
+}
