@@ -21,7 +21,7 @@ header{
 }
 
 #top{
-    background-image: url(https://user-images.githubusercontent.com/79961059/118344731-d8165580-b4fd-11eb-97b3-358bc0ee15f2.jpg);
+    background-image: url('https://user-images.githubusercontent.com/79961059/118344731-d8165580-b4fd-11eb-97b3-358bc0ee15f2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
